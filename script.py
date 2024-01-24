@@ -37,11 +37,6 @@ for doc in docs:
     doc_path = os.path.dirname(full_doc_path)
     doc_name = os.path.basename(full_doc_path)
 
-    print(filetype)
-    print(full_doc_path)
-    print(doc_path)
-    print(doc_name)
-
     # skip this file when it is in the directory
     if doc_name == "directory_clean" or doc_name.startswith('.'):
         continue
